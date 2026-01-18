@@ -1,0 +1,22 @@
+name: casting_gnn
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+
+
+dependencies:
+  - python=3.10
+  - pytorch>=2.1
+  - pytorch-cuda=12.1
+  - numpy
+  - scipy
+  - matplotlib
+  - tqdm
+  - pyyaml
+  - pyvista>=0.43
+  - vtk
+  - pip
+  - pip:
+    - torch-scatter
+    - torch-sparse
