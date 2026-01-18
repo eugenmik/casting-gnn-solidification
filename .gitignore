@@ -1,0 +1,15 @@
+# Data
+data/
+data_pyg/
+*.npz
+*.msh
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+
+# Env
+env/
