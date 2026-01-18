@@ -1,4 +1,4 @@
-# AI-Driven Casting Solidification: Deep GNN Solver
+# AI-Driven Casting Solidification GNN Solver
 
 ## Overview
 This project presents an R&D prototype for predicting the solidification process in complex 3D castings using **Graph Neural Networks (GNN)**. By leveraging geometric deep learning, this solver aims to provide near-instantaneous thermal analysis, significantly reducing the computational time compared to traditional CAE tools like Magma or ProCAST.
