@@ -1,22 +1,24 @@
-name: casting_gnn
+name: cast_gnn
 channels:
   - pytorch
   - nvidia
   - conda-forge
-
-
+  - defaults
 dependencies:
   - python=3.10
-  - pytorch>=2.1
-  - pytorch-cuda=12.1
+  - pip
   - numpy
   - scipy
-  - matplotlib
   - tqdm
-  - pyyaml
-  - pyvista>=0.43
-  - vtk
-  - pip
+  - meshio             # For .msh to .pt conversion
+  - gmsh               # For mesh/meshgen.py
+  - cadquery           # For step/3dgen.py
+  - pyvista            # For visualization
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8  # For RTX 3060 acceleration
+  - pyg                # PyTorch Geometric
   - pip:
-    - torch-scatter
-    - torch-sparse
+    - pyvista[all]
+    - trimesh
